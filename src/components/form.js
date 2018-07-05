@@ -3,8 +3,8 @@ import React from "react";
 class Overlay extends React.Component{
     render(){
         return(
-            <div id="overlay">
-                <div id="text">
+            <div className="overlay">
+                <div className="text">
                     edit name: <input type="text" id="editName" />
                     <br /><br /> 
                     edit time: <input type="time" id="editTime" />
@@ -49,7 +49,8 @@ export default class Form extends React.Component {
                     <span class="errorTime" aria-live="polite"></span>
                     <br />
                     <br />
-                    <button class="btn btn-primary" id="push_data">Submit</button>
+                    {/* <button class="btn btn-primary" id="push_data" onClick = { this.props.handleClick } >Submit</button> */}
+                    <button class="btn btn-primary" id="push_data" >Submit</button> 
                     <br />
                 </div>
             </form>
