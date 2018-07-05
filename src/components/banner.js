@@ -11,7 +11,7 @@ export const element = (props) => createElement('div', { className: "banner" },
 )
 
 
-
+//commwnted
 // export const element = (props) => (<div className="banner">
 // //                     <h3>TO DO APP</h3>
 // //                     <p id="date">the date today is { props.date }</p>
