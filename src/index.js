@@ -2,28 +2,9 @@ import { createElement} from 'react';
 import ReactDOM from 'react-dom';
 import "./bootstrap/css/bootstrap.min.css";
 import './index.css';
-<<<<<<< HEAD
-import Banner from "./components/banner";
-import List from "./components/list";
- import { Form } from "./components/form";
-
-
-class ToDoApp extends React.Component {
-    render() {
-      return (
-        <div className="app">
-          <Banner />
-          <List />
-          <Form />
-
-        </div>
-      );
-    }
-  }
-=======
 import { element as Banner } from "./components/banner";
 import List from "./components/list";
-import Form from "./components/form";
+import { Form } from "./components/form";
 
 const props = {
   date: new Date().toLocaleDateString()
@@ -73,7 +54,6 @@ ReactDOM.render(
     
 //     }
 //   }
->>>>>>> 60f66eb016111c3423685a3d765af319afc59521
   
   
 //   // ========================================

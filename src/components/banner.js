@@ -1,20 +1,11 @@
-import React from 'react';
+import { createElement } from 'react';
 
-export default class Banner extends React.Component {
-    element = (<div className="banner">
-                    <h3>TO DO APP</h3>
-                    <p id="date">the date today is {new Date().toLocaleDateString()}</p>
-                    <div className="button">
-                        <button className="btn btn-info btn-md">&#x2b;</button>
-                        <button className="btn btn-info btn-md">&#xe086;</button>
-                    </div>
-                    </div>
-                );
+export const element = (props) => createElement('div', { className: "banner" },
+    createElement('h1', {}, "To Do app"),
+    createElement('p', {}, `the date today is ${props.date}`),
+    createElement('div', { className: 'button' },
 
-    render(){
-        return (
-            this.element
-        );
-    }
-}
-
+        createElement("button", { className: "btn btn-info btn-md" }, '&#x2b;'),
+        createElement("button", { className: "btn btn-info btn-md" }, '&#xe086;')
+    )
+)
