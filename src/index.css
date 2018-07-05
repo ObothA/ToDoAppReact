@@ -1,122 +1,120 @@
 body {
-  font-family: Tahoma;
-  color: #444;
-  letter-spacing: 1px;
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
 }
 
 .app {
-  width: 90%;
-  margin: 20px auto;
-  border-radius: 6px;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
-  padding: 0 0 20px;
-  overflow: hidden;
-  border: 1px solid lightgray;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
 }
 
 .banner {
-  background: #eee;
-  padding: 10px 0;
+    background: #eee;
+    padding: 10px 0;
 }
 
 .banner h3,
 .banner p {
-  text-align: center;
-  margin: 10px 0;
+    text-align: center;
+    margin: 10px 0;
 }
 
 .button {
-  padding-left: 1000px;
+    padding-left: 1000px;
 }
 
 .button button {
-  box-shadow: 5px blue;
-  margin:3px;
+    box-shadow: 5px blue;
+    margin: 3px;
 }
 
 .list {
-  margin: 0 auto;
-  text-align: center;
-  width: 70%;
-  padding-top: 55px;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    padding-top: 55px;
 }
 
 .list h5 {
-  padding-bottom: 23px;
+    padding-bottom: 23px;
 }
 
 table {
-  margin: 0 auto;
-  width: 60%;
-  text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
 }
 
 .inputData h4 {
-  text-align: center;
+    text-align: center;
 }
 
 .inputData {
-  width: 60%;
-  margin: 0 auto;
-  border-radius: 6px;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
-  border: 1px solid lightgray;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid lightgray;
 }
 
 input {
-  padding: 7px;
-  border: 1px solid lightgray;
-  border-radius: 6px;
-  width: 60%;
+    padding: 7px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    width: 60%;
 }
 
 .inputData div {
-  text-align: center;
+    text-align: center;
 }
 
 .inputData button {
-  margin-bottom: 11px;
+    margin-bottom: 11px;
 }
 
-
-.error{
-  color:red;
-  font-size: 15px;
+.error {
+    color: red;
+    font-size: 15px;
 }
 
-.okay{
- color:green;
+.okay {
+    color: green;
 }
+
 
 /*overlay stlyes*/
 
-
-#overlay {
-  position: fixed;
-  display: none;
-  width: 40%;
-  height: 40%;
-  top: 28%;
-  left: 30%;
-  right: 20%;
-  bottom: 0;
-  z-index: 2;
-  background-color: #b0c4de;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: all 500ms ease;
+.overlay {
+    position: fixed;
+    display: none;
+    width: 40%;
+    height: 40%;
+    top: 28%;
+    left: 30%;
+    right: 20%;
+    bottom: 0;
+    z-index: 2;
+    background-color: #b0c4de;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 500ms ease;
 }
 
-#text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color:#444;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #444;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
-#text input{
-  width:100%;
+.text input {
+    width: 100%;
 }
-
