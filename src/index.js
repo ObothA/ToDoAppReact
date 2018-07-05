@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "./bootstrap/css/bootstrap.min.css";
 import './index.css';
-import Banner from "./banner";
-import List from "./list";
-import Form from "./form";
+import Banner from "./components/banner";
+import List from "./components/list";
+import Form from "./components/form";
 
 
 class ToDoApp extends React.Component {
@@ -30,4 +30,4 @@ class ToDoApp extends React.Component {
     <ToDoApp />,
     document.getElementById('root')
   );
-  
+   
