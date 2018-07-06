@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import "./bootstrap/css/bootstrap.min.css";
 import './index.css';
 import { element as Banner } from "./components/banner";
-import List from "./components/list";
-import { Form } from "./components/form";
+import {List} from "./components/list";
+import Form from "./components/form";
 
 const props = {
   date: new Date().toLocaleDateString()
